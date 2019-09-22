@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SecondFragment"
+    android:background="@android:color/holo_blue_bright"
+
+    >
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textImeMultiLine"
+        android:hint="enter some data"
+        android:id="@+id/edtData"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtData"
+        android:layout_centerHorizontal="true"
+        android:text="send"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_sendata"
+        />
+
+</RelativeLayout>
